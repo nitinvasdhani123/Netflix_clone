@@ -1,0 +1,511 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: rgb(255, 247, 247);
+    overflow-x: hidden;
+}
+
+#navbar
+{
+    display: flex;
+    align-items: center;
+}
+
+#navbar h1
+{
+    margin-right: auto;
+    padding: 20px;
+    color: red;
+    font-size: 2.2rem;
+}
+
+#navbar select
+{
+    font-size: 1.2rem;
+    border-color: white;
+    color: white;
+    background-color: rgb(44, 41, 41);
+    padding: 2px;
+    border-radius: 4px;
+}
+
+#navbar button
+{
+    font-size: 1.1rem;
+    padding: 4px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#mail
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 450px; */
+    color: white;
+    margin-top: 70px;
+    height: 300px;
+}
+
+#mail::before
+{
+    content:"";
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/935156fb-9579-4fc2-ad94-70680402b8ef/3689d1b9-def2-446b-bc6c-ba159a4469f8/IN-en-20230109-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    height: 106vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    box-shadow: inset 9px 10px 140px 105px black;
+    opacity: 0.99;
+}
+
+.container1
+{
+    text-align: center;
+}
+
+.container1 h1
+{
+    font-size: 3.5rem;
+    padding: 22px;
+}
+
+.container1 h2
+{
+    font-size: 2rem;
+    padding: 4px;
+}
+
+.container1 h3
+{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.container2
+{
+    margin-bottom: 9.5rem;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+input[type="email"]
+{
+    margin-left: 7rem;
+    padding: 10px;
+    font-size: 1.4rem;
+    border-radius: 4px;
+}
+
+.getstarted
+{
+    margin-right: 7rem;
+    font-size: 1.4rem;
+    color: white;
+    background-color: red;
+    border-color: red;
+    border-radius: 4px;
+}
+
+#TV
+{
+    /* border: 2px solid rgb(7, 7, 7); */
+    height: 28rem;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    border-top: 6px solid rgb(48, 47, 47);
+}
+
+.content1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 28rem;
+    /* margin-left: -2px; */
+}
+
+.content1 h1
+{
+    font-size: 3.4rem;
+    padding: 8px;
+}
+
+.content1 p
+{
+    font-size: 1.7rem;
+    padding: 8px;
+}
+
+.TV
+{
+    background-color: black;
+}
+
+.TV img
+{
+    width: 27rem;
+    height: 27rem;
+    /* margin-right: -2px; */
+}
+
+#phone
+{
+    /* border: 2px solid rgb(7, 7, 7); */
+    height: 28rem;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    border-top: 6px solid rgb(75, 73, 73);
+    margin-top: 6px;
+}
+
+.content2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 28rem;
+    /* margin-left: -2px; */
+}
+
+.content2 h1
+{
+    font-size: 3.4rem;
+    padding: 8px;
+}
+
+.content2 p
+{
+    font-size: 1.7rem;
+    padding: 8px;
+}
+
+.mobile 
+{
+    background-color: black;
+}
+
+.mobile img
+{
+    width: 34rem;
+    height: 27rem;
+    /* margin-right: -2px; */
+}
+
+#children
+{
+    /* border: 2px solid rgb(7, 7, 7); */
+    height: 28rem;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    border-top: 6px solid rgb(75, 73, 73);
+    margin-top: 6px;
+}
+
+.content3
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 28rem;
+    /* margin-left: -2px; */
+}
+
+.content3 h1
+{
+    font-size: 3.4rem;
+    padding: 8px;
+}
+
+.content3 p
+{
+    font-size: 1.7rem;
+    padding: 8px;
+}
+
+.children
+{
+    background-color: black;
+}
+
+.children img
+{
+    width: 34rem;
+    height: 27rem;
+    /* margin-right: -2px; */
+}
+
+
+#FAQ
+{
+    /* border: 2px solid rgb(233, 226, 226); */
+    margin-top: 6px;
+    height: 40rem;
+    background-color: black;
+    border-top: 6px solid rgb(75, 73, 73);
+}
+
+#FAQ h1
+{
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.FAQ1
+{
+    /* border: 2px solid black; */
+    height: 24rem;
+    display: grid;
+}
+
+.box
+{
+    display: flex;
+    align-items: center;
+    width: 45rem;
+    margin: auto;
+    background-color: rgb(75, 73, 73);
+}
+
+.box h3
+{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.box span
+{
+    margin-left: auto;
+    font-size: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.FAQ2 h4
+{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#foot
+{
+    /* border: 2px solid rgb(5, 5, 5); */
+    background-color: black;
+    height: 21rem;
+    margin-top: -10px;
+    border-top: 6px solid rgb(75, 73, 73);
+}
+
+.foot1
+{
+    /* border: 2px solid black; */
+    height: 35px;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.foot1 h6
+{
+    margin: auto;
+    padding: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+.foot1 h6 a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.foot1 h6 a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+
+.foot2
+{
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    height: 30px;
+    display: flex;
+    /* align-items: center; */
+}
+
+.foot2 span
+{
+    /* border: 2px solid black; */
+    width: 8rem;
+    margin: auto;
+    height: 30px;
+}
+
+.foot2 span a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.foot2 span a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+
+.foot3
+{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.foot3 span
+{
+    /* border: 2px solid black; */
+    width: 8rem;
+    margin: auto;
+    height: 30px;
+}
+
+.foot3 span a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.foot3 span a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+
+.foot4
+{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.foot4 span
+{
+    /* border: 2px solid black; */
+    width: 8rem;
+    margin: auto;
+    height: 30px;
+}
+
+.foot4 span a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.foot4 .chota
+{
+    font-size: 0.8rem;
+    color: white;
+}
+
+.foot4 span a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+
+.foot5
+{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.foot5 span
+{
+    /* border: 2px solid black; */
+    width: 8rem;
+    margin: auto;
+    height: 30px;
+}
+
+.foot5 span a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.foot5 span a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+
+.foot6
+{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.foot6 select
+{
+    font-size: 1.2rem;
+    border-color: white;
+    color: white;
+    background-color: rgb(44, 41, 41);
+    padding: 2px;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.foot7
+{
+    display: flex;
+    align-items: center;
+    height: 2rem;
+}
+
+.foot7 h6
+{
+    color: white;
+    font-size: 0.9rem;
+    margin: auto;
+}

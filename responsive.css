@@ -1,0 +1,254 @@
+#navbar h1
+{
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
+#navbar select
+{
+    font-size: 1rem;
+    padding: 1px;
+}
+
+#navbar button
+{
+    font-size: 1rem;
+    padding: 2px;
+    margin: 15px;
+    border-radius: 3px;
+}
+
+#mail
+{
+    margin-top: 35px;
+    height: 230px;
+}
+
+#mail::before
+{
+    height: 80vh;
+}
+
+.container1 h1 {
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.container1 h2 {
+    font-size: 1.5rem;
+    padding: 2px;
+}
+
+.container1 h3 {
+    font-size: 1.2rem;
+    padding: 8px;
+}
+
+.container2 
+{
+    margin-bottom: 5.9rem;
+    height: 69px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type="email"] 
+{
+    margin: auto;
+    height: 2rem;
+    padding: 5px;
+}
+
+.getstarted {
+    margin: auto;
+    font-size: 0.9rem;
+}
+
+#TV 
+{
+    display: flex;
+    margin-top: -47px;
+    flex-direction: column;
+    height: 34rem;
+    background-color: black;
+    border-top: 6px solid rgb(75, 73, 73);
+}
+
+.content1 h1 {
+    font-size: 2.5rem;
+    padding: 5px;
+}
+
+.content1 p {
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+.TV
+{
+    margin: auto;
+}
+
+.TV img
+{
+    width: 20rem;
+    height: 18rem;
+}
+
+#phone 
+{
+    height: 40rem;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    border-top: 6px solid rgb(75, 73, 73);
+    background-color: black;
+}
+
+.content2 h1 {
+    font-size: 2rem;
+    padding: 5px;
+}
+
+.content2 p {
+    font-size: 1.5rem;
+    padding: 8px;
+}
+
+.mobile 
+{
+    margin: auto;
+}
+
+.mobile img 
+{
+    width: 20rem;
+    height: 20rem;
+}
+
+#children
+{
+    height: 50rem;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-top: 6px solid rgb(75, 73, 73);
+}
+
+.content3 h1 {
+    font-size: 2.4rem;
+    padding: 8px;
+}
+
+.content3 p
+{
+    font-size: 1.8rem;
+}
+
+.children
+{
+    margin: auto;
+}
+
+.children img 
+{
+    width: 20rem;
+    height: 20rem;
+}
+
+#FAQ
+{
+    margin-top: 0px;
+    height: 46rem;
+}
+
+#FAQ h1 {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.9rem;
+    color: white;
+}
+
+.box
+{
+    width: 20rem;
+}
+
+.FAQ2 h4
+{
+    font-size: 1.8rem;
+}
+
+#foot
+{
+    margin-top: 0px;
+}
+
+.foot1
+{
+    margin-top: 1.9rem;
+}
+
+.foot2
+{
+    margin-top: 10px;
+}
+
+.foot2 span
+{
+    width: 6rem;
+}
+
+.foot3
+{
+    margin-top: 10px;
+}
+
+.foot3 span
+{
+    width: 6rem;
+}
+
+.foot4
+{
+    margin-top: 10px;
+}
+
+.foot4 span
+{
+    width: 6rem;
+}
+
+.foot4 .chota
+{
+    font-size: 1rem;
+}
+
+.foot5
+{
+    margin-top: 15px;
+}
+
+.foot5 span
+{
+    width: 6rem;
+}
+
+.foot6
+{
+    margin-top: 20px;
+}
+
+.foot7
+{
+    height: 3rem;
+}
+
+.foot7 h6
+{
+    color: white;
+    font-size: 1rem;
+    margin: auto;
+}
